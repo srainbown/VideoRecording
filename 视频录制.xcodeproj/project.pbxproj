@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		04BCC219217EC28800C692E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC218217EC28800C692E5 /* AppDelegate.m */; };
-		04BCC21C217EC28800C692E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC21B217EC28800C692E5 /* ViewController.m */; };
-		04BCC21F217EC28800C692E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BCC21D217EC28800C692E5 /* Main.storyboard */; };
 		04BCC221217EC28A00C692E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BCC220217EC28A00C692E5 /* Assets.xcassets */; };
 		04BCC224217EC28A00C692E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BCC222217EC28A00C692E5 /* LaunchScreen.storyboard */; };
 		04BCC227217EC28A00C692E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC226217EC28A00C692E5 /* main.m */; };
 		04BCC231217EC28A00C692E5 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC230217EC28A00C692E5 /* ____Tests.m */; };
 		04BCC23C217EC28A00C692E5 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC23B217EC28A00C692E5 /* ____UITests.m */; };
+		04BCC24E217EC2E500C692E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC24D217EC2E500C692E5 /* MainViewController.m */; };
+		04BCC254217EC4C700C692E5 /* ZCXImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC253217EC4C700C692E5 /* ZCXImagePickerViewController.m */; };
+		04BCC257217EF6DA00C692E5 /* CompileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCC256217EF6DA00C692E5 /* CompileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,6 @@
 		04BCC214217EC28800C692E5 /* 视频录制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频录制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BCC217217EC28800C692E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04BCC218217EC28800C692E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04BCC21A217EC28800C692E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04BCC21B217EC28800C692E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04BCC21E217EC28800C692E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BCC220217EC28A00C692E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BCC223217EC28A00C692E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BCC225217EC28A00C692E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,12 @@
 		04BCC237217EC28A00C692E5 /* 视频录制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频录制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BCC23B217EC28A00C692E5 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		04BCC23D217EC28A00C692E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BCC24C217EC2E500C692E5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04BCC24D217EC2E500C692E5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04BCC252217EC4C700C692E5 /* ZCXImagePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCXImagePickerViewController.h; sourceTree = "<group>"; };
+		04BCC253217EC4C700C692E5 /* ZCXImagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCXImagePickerViewController.m; sourceTree = "<group>"; };
+		04BCC255217EF6DA00C692E5 /* CompileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompileViewController.h; sourceTree = "<group>"; };
+		04BCC256217EF6DA00C692E5 /* CompileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,11 @@
 		04BCC216217EC28800C692E5 /* 视频录制 */ = {
 			isa = PBXGroup;
 			children = (
+				04BCC24B217EC2C900C692E5 /* Controller */,
+				04BCC24A217EC2C500C692E5 /* View */,
+				04BCC249217EC2C000C692E5 /* Model */,
 				04BCC217217EC28800C692E5 /* AppDelegate.h */,
 				04BCC218217EC28800C692E5 /* AppDelegate.m */,
-				04BCC21A217EC28800C692E5 /* ViewController.h */,
-				04BCC21B217EC28800C692E5 /* ViewController.m */,
-				04BCC21D217EC28800C692E5 /* Main.storyboard */,
 				04BCC220217EC28A00C692E5 /* Assets.xcassets */,
 				04BCC222217EC28A00C692E5 /* LaunchScreen.storyboard */,
 				04BCC225217EC28A00C692E5 /* Info.plist */,
@@ -130,6 +134,33 @@
 				04BCC23D217EC28A00C692E5 /* Info.plist */,
 			);
 			path = "视频录制UITests";
+			sourceTree = "<group>";
+		};
+		04BCC249217EC2C000C692E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BCC24A217EC2C500C692E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BCC24B217EC2C900C692E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BCC24C217EC2E500C692E5 /* MainViewController.h */,
+				04BCC24D217EC2E500C692E5 /* MainViewController.m */,
+				04BCC252217EC4C700C692E5 /* ZCXImagePickerViewController.h */,
+				04BCC253217EC4C700C692E5 /* ZCXImagePickerViewController.m */,
+				04BCC255217EF6DA00C692E5 /* CompileViewController.h */,
+				04BCC256217EF6DA00C692E5 /* CompileViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +268,6 @@
 			files = (
 				04BCC224217EC28A00C692E5 /* LaunchScreen.storyboard in Resources */,
 				04BCC221217EC28A00C692E5 /* Assets.xcassets in Resources */,
-				04BCC21F217EC28800C692E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BCC21C217EC28800C692E5 /* ViewController.m in Sources */,
 				04BCC227217EC28A00C692E5 /* main.m in Sources */,
+				04BCC24E217EC2E500C692E5 /* MainViewController.m in Sources */,
+				04BCC257217EF6DA00C692E5 /* CompileViewController.m in Sources */,
+				04BCC254217EC4C700C692E5 /* ZCXImagePickerViewController.m in Sources */,
 				04BCC219217EC28800C692E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04BCC21D217EC28800C692E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04BCC21E217EC28800C692E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04BCC222217EC28A00C692E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JK3D2L5JK;
 				INFOPLIST_FILE = "视频录制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JK3D2L5JK;
 				INFOPLIST_FILE = "视频录制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

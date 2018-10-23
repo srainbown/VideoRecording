@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CompileViewController.h
 //  视频录制
 //
 //  Created by mac on 23/10/2018.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CompileViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
